@@ -25,8 +25,10 @@ Description:
 **1. Clone this repository to your local machine **  
    git clone https://github.com/gsbadenas/money-transfer-api.git
 
+
 **2. Go to the repository money-transfer-api**
    money-transfer-api
+
    
 **3. How to run the project using maven (USING YOUR IDE OR MAVEN COMMAND)**
 
@@ -38,6 +40,7 @@ Description:
 Application Started At port 8080
 
 <img width="1409" alt="image" src="https://github.com/user-attachments/assets/ddd05d56-0d14-402a-b4bc-1f26ba9ba8d3" />
+
 
 **4. Open H2 Database using the url and Connect**
    *Note: the h2 console configuration can be found in application.properties file
@@ -55,6 +58,7 @@ Application Started At port 8080
 **5. Set up your test data for account details using the sql below:**
   -  run the sql insert data
 
+
 -INSERT INTO ACCOUNT (ID, ACCOUNT_NAME, ACCOUNT_NO, ACCOUNT_BALANCE, CURRENCY) VALUES
     (1, 'Joe', 1001, 300, 'USD'),
     (2,'Alice',1002, 400, 'USD'),
@@ -64,6 +68,7 @@ Application Started At port 8080
     select * from ACCOUNT;
     
  <img width="710" alt="image" src="https://github.com/user-attachments/assets/fbe018af-162e-4b68-b507-78c241143cb5" />
+
 
 **6. Test your API End points:**
 
@@ -92,6 +97,7 @@ Application Started At port 8080
 
   <img width="629" alt="image" src="https://github.com/user-attachments/assets/cda63290-a771-487f-b37b-d2055f95f450" />
 
+
 -Verify Account Balance (Database)
 
 <img width="481" alt="image" src="https://github.com/user-attachments/assets/d529e224-011f-4f9f-a8e8-3e1c7e01ee66" />
@@ -103,6 +109,11 @@ Application Started At port 8080
 -Verify account balance where Balance has been deducted with charge and transfer fee from account = 1001 
 
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/69eaf16f-06da-4a1e-9b1e-7da58cac5994" />
+
+-Verify New Account 2002 and transfer to 2004 account with recurring for no of times (Ex. Recurring of 2 times) = "recurringNumber": "2",
+
+<img width="629" alt="image" src="https://github.com/user-attachments/assets/4d2d9773-ab7e-472f-b0ba-834324cd719a" />
+
 
 
 ** 7. Global Exception hander and Validation Error**
@@ -143,6 +154,7 @@ Application Started At port 8080
 
  #Exchange rate external API - exchange rate to get the rate based on the currency
   external.api.exchange_rate=https://api.exchangerate-api.com/v4/latest/{currencypair}
+
 
   9. Other Test (TEST CASES Added)
      
