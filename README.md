@@ -56,10 +56,10 @@ Application Started At port 8080
   -  run the sql insert data
 
 -INSERT INTO ACCOUNT (ID, ACCOUNT_NAME, ACCOUNT_NO, ACCOUNT_BALANCE, CURRENCY) VALUES
-    (1, 'Joe', 1001, 1300, 'USD'),
-    (2,'Alice',1002, 1400, 'USD'),
-    (3,'Goe',1003, 1500, 'JPY'),
-    (4,'Lexter',1004, 1600, 'AUD');
+    (1, 'Joe', 1001, 300, 'USD'),
+    (2,'Alice',1002, 400, 'USD'),
+    (3,'Goe',1003, 500, 'JPY'),
+    (4,'Lexter',1004, 500, 'AUD');
 
     select * from ACCOUNT;
     
@@ -92,6 +92,19 @@ Application Started At port 8080
 
   <img width="629" alt="image" src="https://github.com/user-attachments/assets/cda63290-a771-487f-b37b-d2055f95f450" />
 
+-Verify Account Balance (Database)
+
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/d529e224-011f-4f9f-a8e8-3e1c7e01ee66" />
+
+-Verify Account Balance through Endpont to retrieve balance where amount has been transffered to another account from 1001 to 1003
+
+<img width="546" alt="image" src="https://github.com/user-attachments/assets/e7664eb1-8b73-4cfb-9382-738a9756196a" />
+
+-Verify account balance where Balance has been deducted with charge and transfer fee from account = 1001 
+
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/69eaf16f-06da-4a1e-9b1e-7da58cac5994" />
+
+
 ** 7. Global Exception hander and Validation Error**
    a.Account No Does not Exist
   - GET http://localhost:8080/v1/accounts/balances/100222222
@@ -119,6 +132,7 @@ Application Started At port 8080
 
 
     7. SystemException - Encounter internal server error, please check with system administrator.
+
 
  ** 8. Other Configuration and Connection**
  - application.properties
