@@ -150,10 +150,16 @@ Application Started At port 8080
   <img width="583" alt="image" src="https://github.com/user-attachments/assets/2a988b6d-dfe1-4dc7-a7e3-8593b722791a" />
 
 #Internal API to call and retrieve balance
-  endpoint.accountBalance=http://localhost:8080/v1/accounts/balances/{id}
+
+  -endpoint.accountBalance=http://localhost:8080/v1/accounts/balances/{id}
 
  #Exchange rate external API - exchange rate to get the rate based on the currency
-  external.api.exchange_rate=https://api.exchangerate-api.com/v4/latest/{currencypair}
+ 
+  -external.api.exchange_rate=https://api.exchangerate-api.com/v4/latest/{currencypair}
+
+Ex. Conversation Rate of USD (External API to retrieve the USD conversion)
+
+<img width="1792" alt="image" src="https://github.com/user-attachments/assets/e2d41db1-fa7d-4a79-a9bb-dfbab8d37159" />
 
 
   9. Other Test (TEST CASES Added)
