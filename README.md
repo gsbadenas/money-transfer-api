@@ -157,7 +157,7 @@ Application Started At port 8080
  
   -external.api.exchange_rate=https://api.exchangerate-api.com/v4/latest/{currencypair}
 
-Ex. Conversation Rate of USD (External API to retrieve the USD conversion)
+Ex. Conversion Rate of USD (External API to retrieve the USD conversion)
 
 <img width="1792" alt="image" src="https://github.com/user-attachments/assets/e2d41db1-fa7d-4a79-a9bb-dfbab8d37159" />
 
