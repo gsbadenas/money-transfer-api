@@ -110,7 +110,7 @@ Application Started At port 8080
 
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/69eaf16f-06da-4a1e-9b1e-7da58cac5994" />
 
--Verify New Account 2002 and transfer to 2004 account with recurring for no of times (Ex. Recurring of 2 times) = "recurringNumber": "2",
+-Verify New Account 1002 and transfer to 1004 account with recurring for no of times (Ex. Recurring of 2 times) = "recurringNumber": "2",
 
 <img width="629" alt="image" src="https://github.com/user-attachments/assets/4d2d9773-ab7e-472f-b0ba-834324cd719a" />
 
