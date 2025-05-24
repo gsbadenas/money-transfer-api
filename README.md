@@ -162,7 +162,7 @@ Ex. Conversion Rate of USD (External API to retrieve the USD conversion)
 <img width="1792" alt="image" src="https://github.com/user-attachments/assets/e2d41db1-fa7d-4a79-a9bb-dfbab8d37159" />
 
 
-  9. Other Test (TEST CASES Added)
+  9. Other Test (TEST CASES Added) - Junit/Mickito 
      
 <img width="1410" alt="image" src="https://github.com/user-attachments/assets/2ba863d9-771b-4a9d-a89b-0cfb118759b1" />
 
